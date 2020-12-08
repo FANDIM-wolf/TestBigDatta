@@ -34,7 +34,10 @@ public:
 		cin>>gpa;
 	}
 	bool isOutstanding(){
-		return (gpa>3.5) ? true :false;
+		if (gpa>3.5){
+			string gpa_value = "outstanding";
+			bool outstanding = true;
+		}
 	}
    
 };
@@ -50,7 +53,10 @@ public:
 	}
 	bool isOutstanding()
 	{
-		return (gpa > 100)? true : false;
+		if (gpa>3.5){
+			string gpa_value = "outstanding";
+			bool outstanding = true;
+		}
 	}
 
 };
